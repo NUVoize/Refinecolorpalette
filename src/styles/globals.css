@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+/* Emerald Green & Velvety Black Color System */
+:root {
+  --emerald-50: 236 253 245;
+  --emerald-100: 209 250 229;
+  --emerald-200: 167 243 208;
+  --emerald-300: 110 231 183;
+  --emerald-400: 52 211 153;
+  --emerald-500: 16 185 129;
+  --emerald-600: 5 150 105;
+  --emerald-700: 4 120 87;
+  --emerald-800: 6 95 70;
+  --emerald-900: 6 78 59;
+  --emerald-950: 2 44 34;
+
+  --velvet-black: 10 10 10;
+  --charcoal: 20 20 20;
+  --charcoal-light: 26 26 26;
+  --slate: 36 36 36;
+  --slate-light: 45 45 45;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: rgb(var(--velvet-black));
+  color: rgb(245 245 245);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
